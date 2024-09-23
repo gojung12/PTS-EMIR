@@ -5,17 +5,15 @@
 // import Footer from "./component/Footer";
 // import Fragrance from "./Pages/Fragrance";
 // import CardFashion from "./component/CardFashion";
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Fashion from "./Pages/Fashion";
-import { NoMatch } from "./component/NoMatch";
+import NoMatch from "./Pages/NoMatch";
 function App() {
   return (
-
     <Router>
       <Routes>
-        <Route path="/" element={<Fashion/>}></Route>
-        <Route index element={<Fashion />} />
-        <Route path="/Fragrance" element={<NoMatch/>}></Route>
+        <Route path="/" element={<Fashion />}></Route>
+        <Route path="/Fragrance" element={<NoMatch />}></Route>
       </Routes>
     </Router>
   );
