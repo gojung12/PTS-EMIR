@@ -11,7 +11,7 @@ const Navbar = () => {
           <a href="/" className="">
             Fashion & Accessories
           </a>
-          <a onClick={() => navigate("/Fragrance")} className="ml-5">
+          <a onClick={() => navigate("/Fragrance")} className="ml-5 cursor-pointer">
             Fragrance & Beauty
           </a>
         </div>
