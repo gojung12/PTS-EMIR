@@ -7,7 +7,7 @@
 // import CardFashion from "./component/CardFashion";
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import Fashion from "./Pages/Fashion";
-import  { NoMatch }  from "./component/NoMatch";
+import   NoMatch   from "./component/NoMatch";
 function App() {
   return (
 
